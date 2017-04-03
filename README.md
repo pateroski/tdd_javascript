@@ -2,7 +2,9 @@
 
 ### Introducción
 
-Tanto el PDF como la charla se centran en aprender a realizar TDD en Javascript utilizando los frameworks y liberías más comunes de testing:
+El objetivo es enseñar en qué consiste el TDD, acercarnos un poco más al testing unitario en JS, ver el ecosistema de herramientas y finalmente bibliografía y enlaces donde seguir aprendiendo.
+
+Tanto el PDF como los ejercicios se centran en aprender a realizar TDD en Javascript utilizando los frameworks y liberías más comunes de testing en JS:
 
 * **Frameworks de testing**: [JasmineJS](https://jasmine.github.io/2.3/introduction.html), [MochaJS](https://mochajs.org/)
 * **Librería de stubs y aserciones**: [SinonJS](http://sinonjs.org/) y [ChaiJS](http://chaijs.com/)
