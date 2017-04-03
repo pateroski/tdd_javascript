@@ -6,7 +6,7 @@ Tanto el PDF como la charla se centran en aprender a realizar TDD en Javascript 
 
 * **Frameworks de testing**: [JasmineJS](https://jasmine.github.io/2.3/introduction.html), [MochaJS](https://mochajs.org/)
 * **Librería de stubs y aserciones**: [SinonJS](http://sinonjs.org/) y [ChaiJS](http://chaijs.com/)
-* **Herramientas de ejecución de tests**: [Karma-runner](https://karma-runner.github.io/0.13/index.html).
+* **Herramientas de ejecución de tests**: [Karma-runner](https://karma-runner.github.io/0.13/index.html)
 * **Navegadores headless**: [PhantomJS](http://phantomjs.org/)
 
 ### Arquitectura
