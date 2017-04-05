@@ -1,0 +1,42 @@
+{
+  "name": "calculadora-2",
+  "description": "Area & Volume Calculator for square & circle",
+  "version": "0.0.0",
+  "homepage": "https://github.com/pateroski/tdd_javascript",
+  "bugs": "https://github.com/p4ter0ski/calculadora-2/issues",
+  "license": "MIT",
+  "main": "src/calculadora-2.js",
+  "author": {
+    "name": "Andrés Reyes",
+    "email": "andres.reyes@sngular.team"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pateroski/tdd_javascript"
+  },
+  "keywords": [
+    "calculadora-2"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "browserify": "^13.0.0",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.1",
+    "gulp": "^3.8.8",
+    "gulp-istanbul": "^0.8.1",
+    "gulp-jscs": "^1.6.0",
+    "gulp-jshint": "^1.9.4",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "jshint-stylish": "^1.0.1",
+    "should": "^6.0.1",
+    "sinon": "^1.17.3",
+    "webpack": "^1.8.9"
+  },
+  "scripts": {
+    "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "gulp test"
+  }
+}

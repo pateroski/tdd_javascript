@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Calculator</title>
+
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="stilos.css" media="screen" />
+</head>
+<body bgcolor="grey">
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Calculator</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li id="menuInfo" class="active"><a href="#">Info <span class="sr-only">(current)</span></a></li>
+        <li id="menuSquare"><a href="#">Square</a></li>
+        <li id="menuCircle"><a href="#">Circle</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Owners <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Andrés Reyes</a></li>
+            <li><a href="#">Álvaro Gonzalez</a></li>
+            <li><a href="#">Daniel García</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="jumbotron" bgcolor="red">
+  <div class="container">
+    <h1>The american power!!</h1>
+    <p>In most countries, students use calculators for schoolwork. There was some initial resistance to the idea out of fear that basic arithmetic skills would suffer....</p>
+    <p><a class="btn btn-primary btn-lg" role="button">Leer m&aacutes</a></p>
+  </div>
+</div>
+  <div>
+    <div id="content" class="container">
+      <div class="row">
+        <div ui-view>
+          <div>This is a example project using Bootstrap and Javascript. First example using mocha,sinon,jenkins and sonar.</div>
+          <div>
+              In most countries, students use calculators for schoolwork. There was some initial resistance to the idea out of fear that basic arithmetic skills would suffer...
+          </div>
+          <div id="panelSquare" class="panel panel-primary" hidden >
+            <div class="panel-heading"><span class="glyphicon glyphicon-edit" style="color:blue"></span> Cuadrado</div>
+              <div class="panel-body">Lado:
+                  <input type="text" name="lado" id="lado" height="50"> metros
+                  <button class="btn btn-warning" id="calcularAreaCuadrado">Calcular area</button>
+                  <button class="btn btn-warning" id="calcularVolumenCuadrado">Calcular volumen</button>
+                  <span style="color:blue" id="resultCuadrado">  </span>
+              </div>
+          </div>
+          <div id="panelCircle" class="panel panel-danger" hidden>
+            <div class="panel-heading"><span class="glyphicon glyphicon-record" style="color:red"></span> Circulo</div>
+            <div class="panel-body">Radio:
+                <input type="text" name="radio" id="radio" height="50"> metros
+                <button class="btn btn-warning" id="calcularAreaCirculo" >Calcular area</button>
+                <button class="btn btn-warning" id="calcularVolumenCirculo">Calcular volumen</button>
+                <span style="color:red" id="resultCirculo">  </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ <script src="js/no_test/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "calculadora-2",
+  "version": "0.0.0",
+  "homepage": "https://github.com/pateroski/tdd_javascript",
+  "authors": {
+    "name": "Andrés Reyes",
+    "email": "andres.reyes@sngular.team"
+  },
+  "description": "Area & Volume Calculator for square & circle",
+  "main": "browser/calculadora-2.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "calculadora-2"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.sh",
+    "*.js",
+    "node_modules",
+    "bower_components",
+    "test",
+    "example",
+    "jsdoc.json",
+    "src",
+    "docs",
+    "coverage",
+    "gh-pages",
+    "tests"
+  ]
+}
